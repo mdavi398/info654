@@ -11,7 +11,7 @@ body {
     /* when screen width is less than 600px, resize table to be 96% width of container */
     max-width: 96%; 
     border-style: solid;
-    border-color: #ccc;
+    border-color: black;
     border-width: 1px;
     font-family: Roboto, 'Helvetica Neue', Helvetica, Univers, Arial, sans-serif;
 }
