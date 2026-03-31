@@ -1,0 +1,51 @@
+body {
+    background-color: lightblue;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-details-table {
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+    /* when screen width is less than 600px, resize table to be 96% width of container */
+    max-width: 96%; 
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Univers, Arial, sans-serif;
+}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.product-details-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    color: #555555;
+    margin-top: 80px;
+}
+
+.div-table {
+    width: 600px;
+    max-width: 96%;
+    border: 1px solid #ccc;         
+    font-size: 80%;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Univers, Arial, sans-serif;
+}
+
+.div-table-row {
+    display: flex;
+    width: auto;
+    clear: both;
+}
+
+.div-table-cell {
+    flex: 1;   
+    width: 33%;
+    padding: 3px;
+}
