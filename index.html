@@ -1,75 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="Monika Davis">
-        <meta name="description" content="Strong Rope's Three Best Beers">
-        <meta name="keywords" content="NYC Beer, Red Hook, Strong Rope">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Strong Rope's Three Best Beers</title>
-<link rel="stylesheet" href="style.css" />
-   </head>
-    <body>
-        <header>
-            <h1>Strong Rope's Best Beer</h1>
-        </header>
-        <main>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Monika Davis">
+    <meta name="description" content="Strong Rope's Three Best Beers">
+    <meta name="keywords" content="NYC Beer, Red Hook, Strong Rope">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Rope's Three Best Beers</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Strong Rope's Best Beers</h1>
+    </header>
+
+    <main>
+        <p class="description">
+            Strong Rope brews a lot of beer, but these are the <em>best</em>!
+        </p>
+        <p class="description">
+            If you explore New York City's craft beer scene, you will notice that Strong Rope has delicious beer.
+            Showcasing New York ingredients, Strong Rope Brewery proudly brews and serves handcrafted ales & lagers.
+        </p>
+
+        <!-- Centered image container -->
+        <div class="image-container">
+            <a href="https://www.strongropebrewery.com/">
+                <img src="BeerPhotos/mugbeer.jpg" alt="Mug of Beer" width="500">
+            </a>
+        </div>
+
+        <section>
+            <h2>Here are the Top 3 beers at Strong Rope:</h2>
             <p class="description">
-                Strong Rope brews a lot of beer, but these are the <em>best</em>!
-            </p>
-            <p class="description">
-                If you explore New York City's craft beer scene, you will notice that Strong Rope has delicious beer. Showcasing New York ingredients, Strong Rope Brewery proudly brews and serves handcrafted ales & lagers.
+                Below is a list of the three best beers from Strong Rope Brewery, in a table.
             </p>
 
-            <section>
-                <h2>Here are the Top 3 beers at Strong Rope:</h2>
-                <p class="description">
-                    Below is a list of the three best beers from Strong Rope Brewery, in a table.
-                </p>
-                <div class="div-table">
-                    <div class="div-table-row">
-                        <div class="div-table-cell col-header">Beer Name</div>
-                        <div class="div-table-cell col-header">Beer Style</div>
-                        <div class="div-table-cell col-header">ABV (alcohol by volume)</div>
-                    </div>
-                    <div class="div-table-row">
-			 <div class="div-table-cell">
-                       		<a href="https://mdavi398.github.io/info654/Eleven.html">Eleven</a>
-                        </div>
-                       	 <div class="div-table-cell">Bohemian Pilsner</div>
-                        <div class="div-table-cell ABV">4.5%</div>
-  		</div>
-                      <div class="div-table-row">
-			 <div class="div-table-cell">
-                       		<a href="https://mdavi398.github.io/info654/PubAle.html">Pub Ale</a>
-                        </div>
-                        <div class="div-table-cell">Extra Special Bitter</div>
-                        <div class="div-table-cell ABV">4.2%</div>
-  		</div>
-		<div class="div-table-row">
-			 <div class="div-table-cell">
-                       		<a href="https://mdavi398.github.io/info654/WolfSweater.html">Wolf Sweater</a>
-                        </div>
-                        <div class="div-table-cell">Hazy IPA</div>
-                        <div class="div-table-cell ABV">6.5%</div>
-  		</div>
- </div>
-                <p class="description">
-                    <em>Please click on the beer name to find tasting notes, a photo, and more information.<em>
-                </p>
-            </section>
-  <h3>Where to find Strong Rope Beer around NYC</h3>
-	<ul>
-	<li>As Is, Hell's Kitchen</li>
-	<li>Craft & Carry, UWS</li>
-	<li>Covenhoven, Prospect Heights</li>
-	<li>Nemo's Beer Shop, Forest Hills</li>
-	</ul>
- 
-        </main>
-        
-        <footer>
-            <p>© Monika Davis 2026</p>
-        </footer>
-    </body>
+            <table id="beer-table">
+                <thead>
+                    <tr>
+                        <th>Beer Name</th>
+                        <th>Beer Style</th>
+                        <th>ABV (alcohol by volume)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://mdavi398.github.io/info654/Eleven.html">Eleven</a></td>
+                        <td>Bohemian Pilsner</td>
+                        <td>4.5%</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://mdavi398.github.io/info654/PubAle.html">Pub Ale</a></td>
+                        <td>Extra Special Bitter</td>
+                        <td>4.2%</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://mdavi398.github.io/info654/WolfSweater.html">Wolf Sweater</a></td>
+                        <td>Hazy IPA</td>
+                        <td>6.5%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="description">
+                Please click on the beer name to find tasting notes, a photo, and more information.
+            </p>
+        </section>
+
+        <h3>Where to find Strong Rope Beer around NYC</h3>
+        <ul>
+            <ul>
+                ><a href="https://www.asisnyc.com" target="_blank">As Is, Hell's Kitchen</a>
+                ><a href="https://www.craftandcarry.beer" target="_blank">Craft & Carry, UWS</a>
+                ><a href="https://www.covenhovennyc.com" target="_blank">Covenhoven, Prospect Heights</a>
+                ><a href="https://www.instagram.com/nemosbeershopfh/?hl=en" target="_blank">Nemo's Beer Shop, Forest Hills</a>
+            </ul>
+        </ul>
+    </main>
+
+    <footer>
+        <p>© Monika Davis 2026</p>
+    </footer>
+</body>
+
 </html>
