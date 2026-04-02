@@ -14,9 +14,14 @@ h3 {
     margin-bottom: 20px;
 }
 
+
 h1 {
     font-size: 2.5rem;
     letter-spacing: 1px;
+}
+h1 a {
+    text-decoration: none;  
+    color: #8b5e3c;          
 }
 
 h2 {
